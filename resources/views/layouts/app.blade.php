@@ -34,9 +34,9 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element">
-                        <img alt="image" class="rounded-circle" src="{{ asset('images/pelect5-appAB.jpg') }}" style="width: 100px; height: 100px; object-fit: cover;"/>
+                        <img alt="image" class="rounded-circle" src="{{ asset('images/tech-cat.jpg') }}" style="width: 100px; height: 100px; object-fit: cover;"/>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="block m-t-xs font-bold">Angala & Barnachea</span>
+                            <span class="block m-t-xs font-bold">Gampic & Manzano</span>
                             <span class="text-muted text-xs block">BSIT - 4B <b class="caret"></b></span>
                         </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">

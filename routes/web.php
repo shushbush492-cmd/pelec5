@@ -9,6 +9,7 @@ use App\Http\Controllers\GymCustomerController;
 use App\Http\Controllers\GymDashboardController;
 use App\Http\Controllers\GymOrderController;
 use App\Http\Controllers\GymProductController;
+use App\Http\Controllers\BookQueryController;
 
 Route::get('/', function () {
     return redirect('/login');
@@ -82,4 +83,6 @@ Route::middleware('admin.auth')->group(function () {
     Route::get('/edit-book/{id}', [BookController::class, 'show_edit_form']);
     Route::post('/update-book', [BookController::class, 'do_update']);
     Route::get('/delete-book/{id}', [BookController::class, 'do_delete']);
+
+    Route::get('/book-query-comparison', [BookQueryController::class, 'index']);
 });
